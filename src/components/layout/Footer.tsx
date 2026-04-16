@@ -21,7 +21,7 @@ export default function Footer() {
             assessment.
           </p>
           <p className="text-foreground-muted">
-            Ming Liu &middot; April 2026 &middot; Prepared for Square Peg
+            Ming Qin &middot; April 2026 &middot; Prepared for Square Peg
             Capital
           </p>
         </div>

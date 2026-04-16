@@ -118,7 +118,7 @@ export default function ThesisPage() {
           the deepest workflow integration, and the strongest regulatory moats.
         </p>
         <p className="mt-3 font-sans text-sm text-foreground-muted">
-          Ming Liu &middot; April 2026
+          Ming Qin &middot; April 2026
         </p>
       </div>
 

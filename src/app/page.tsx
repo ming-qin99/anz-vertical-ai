@@ -20,7 +20,7 @@ export default function Home() {
           specific industries — and what makes the best ones defensible.
         </p>
         <p className="mt-3 font-sans text-xs uppercase tracking-widest text-foreground-muted">
-          Ming Liu &middot; April 2026 &middot; Prepared for Square Peg Capital
+          Ming Qin &middot; April 2026 &middot; Prepared for Square Peg Capital
         </p>
       </header>
 

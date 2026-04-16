@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Verticalised AI in Australia & New Zealand",
   description:
     "Mapping how ANZ startups are building deep, purpose-built AI for specific industries — and what makes the best ones defensible. A landscape analysis for Square Peg Capital.",
-  authors: [{ name: "Ming Liu" }],
+  authors: [{ name: "Ming Qin" }],
 };
 
 export default function RootLayout({

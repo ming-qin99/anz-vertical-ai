@@ -10,8 +10,9 @@ const topLinks = [
 
 const bottomLinks = [
   { href: "/defensibility", label: "Defensibility" },
-  { href: "/thesis", label: "Thesis" },
+  { href: "/thesis", label: "Whitespace" },
   { href: "/map", label: "Map" },
+  { href: "/research", label: "Research" },
 ];
 
 export default function Navigation() {

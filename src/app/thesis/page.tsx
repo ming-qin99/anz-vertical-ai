@@ -1,10 +1,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import SectionHeader from "@/components/content/SectionHeader";
-import Callout from "@/components/content/Callout";
 
 export const metadata: Metadata = {
-  title: "Investment Thesis & Whitespace | The State of ANZ Verticalised AI",
+  title: "Whitespace Opportunities | The State of ANZ Verticalised AI",
 };
 
 export default function ThesisPage() {
@@ -12,119 +10,103 @@ export default function ThesisPage() {
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
       <header className="mb-10">
         <h1 className="font-sans text-3xl font-semibold tracking-tight">
-          Investment Thesis & Whitespace
+          Whitespace Opportunities
         </h1>
         <p className="mt-3 text-lg leading-relaxed text-foreground-secondary">
-          Applying Square Peg&apos;s stated thesis — that the addressable market
-          is now the wages bill, that genuine customer love matters more than
-          trial, and that business model innovation creates the most value — to
-          ANZ vertical AI.
+          Three categories where ANZ vertical AI is most underfunded relative
+          to the opportunity — and where the next breakout companies will
+          emerge.
         </p>
       </header>
 
-      {/* 4 investment filter cards */}
-      <div className="mb-10 space-y-4">
-        <div className="rounded-xl border border-[#378ADD44] bg-card p-6">
-          <h3 className="mb-2 font-sans text-base font-semibold">
-            1. Target the wages bill, not the software budget
+      <div className="space-y-6">
+        {/* 1. Sovereign Defence */}
+        <div className="rounded-xl border border-border bg-card p-6">
+          <div className="mb-1 font-sans text-xs font-semibold uppercase tracking-widest text-accent">
+            Opportunity 01
+          </div>
+          <h3 className="mb-3 font-sans text-lg font-semibold">
+            Sovereign Defence & Dual-Use AI
           </h3>
-          <p className="mb-3 text-[0.9rem] leading-relaxed text-foreground-secondary">
-            The most investable vertical AI companies don&apos;t replace
-            $50/month SaaS tools — they replace or augment $100K–$500K/year
-            human roles. Harrison.ai augments radiologists ($400K+). Heidi Health
-            reclaims clinician documentation time worth $100K+/year per doctor.
-            Lorikeet resolves tickets that would otherwise require $60K/year
-            support agents.
+          <p className="mb-1 font-sans text-sm font-medium text-foreground">
+            The biggest underfunded category.
           </p>
-          <p className="font-sans text-sm font-medium text-accent">
-            The filter: Is this company displacing software spend ($10-50K/year)
-            or labor spend ($100K-500K/year)?
+          <p className="mb-3 text-[0.9rem] leading-relaxed text-foreground-secondary">
+            This is the fastest-moving, most capital-rich opportunity right
+            now. The AU$500M government co-investment fund launching in 2026,
+            combined with AUKUS Pillar II (which explicitly names AI as a
+            priority), creates what Bird & Bird called &ldquo;strategic capital
+            needed to scale these businesses from development through
+            commercial deployment.&rdquo; Defence primes can&apos;t move fast
+            enough — startups with security clearances and sovereign data
+            residency will win generational contracts. Current ANZ players
+            (Q-CTRL, DroneShield, Kasada, Breaker Industries, ADT,
+            PentenAmio) are just scratching the surface.
+          </p>
+          <p className="mb-3 text-[0.9rem] leading-relaxed text-foreground-secondary">
+            <strong>Whitespace:</strong> contested logistics AI, autonomous
+            swarm coordination, maritime domain awareness, AI for intelligence
+            analysis. The Anthropic/OpenAI defence contract controversy also
+            signals that &ldquo;safe but useful&rdquo; positioning is itself a
+            moat — ANZ startups with proper governance frameworks could be
+            preferred vendors when US labs face employee pushback.
           </p>
         </div>
 
-        <div className="rounded-xl border border-[#378ADD44] bg-card p-6">
-          <h3 className="mb-2 font-sans text-base font-semibold">
-            2. The &ldquo;wrapper vs. wedge&rdquo; test
+        {/* 2. Trades & Construction */}
+        <div className="rounded-xl border border-border bg-card p-6">
+          <div className="mb-1 font-sans text-xs font-semibold uppercase tracking-widest text-accent">
+            Opportunity 02
+          </div>
+          <h3 className="mb-3 font-sans text-lg font-semibold">
+            AI for Trades, Construction & Field Services
           </h3>
-          <p className="mb-3 text-[0.9rem] leading-relaxed text-foreground-secondary">
-            The biggest risk in vertical AI is building a thin wrapper on a
-            foundation model. The <strong>wedge</strong> companies use AI as
-            entry into a workflow, then expand into adjacent data and process
-            layers that create compounding lock-in. Lyrebird Health starts as an
-            AI scribe → integrates into EMR → captures clinical data → enables
-            billing optimisation → becomes impossible to remove.
+          <p className="mb-1 font-sans text-sm font-medium text-foreground">
+            The most underserved large vertical.
           </p>
-          <p className="font-sans text-sm font-medium text-accent">
-            The filter: Does the company get more valuable with each interaction,
-            or is each interaction independent?
+          <p className="mb-3 text-[0.9rem] leading-relaxed text-foreground-secondary">
+            The US example is instructive: Rebar raised $14M Series A for AI
+            in commercial HVAC/electrical/plumbing, achieving 60-70% quote
+            generation time reduction and doubling ARR in six weeks. Australia
+            has 1.1M+ tradespeople across construction, plumbing, electrical,
+            and mechanical — high-value, low-digitisation verticals where AI
+            can automate quoting, scheduling, compliance documentation, and
+            safety inspections. Buildxact is early proof, but compared to US
+            traction there&apos;s enormous whitespace.
+          </p>
+          <p className="text-[0.9rem] leading-relaxed text-foreground-secondary">
+            The defensibility here is workflow embedding + proprietary pricing
+            data built over time.
           </p>
         </div>
 
-        <div className="rounded-xl border border-[#378ADD44] bg-card p-6">
-          <h3 className="mb-2 font-sans text-base font-semibold">
-            3. Regulated industries are the strongest ANZ play
+        {/* 3. Physical AI / Robotics */}
+        <div className="rounded-xl border border-border bg-card p-6">
+          <div className="mb-1 font-sans text-xs font-semibold uppercase tracking-widest text-accent">
+            Opportunity 03
+          </div>
+          <h3 className="mb-3 font-sans text-lg font-semibold">
+            Physical AI / Robotics for Resource Industries
           </h3>
+          <p className="mb-1 font-sans text-sm font-medium text-foreground">
+            Where ANZ has a structural advantage the US doesn&apos;t.
+          </p>
           <p className="mb-3 text-[0.9rem] leading-relaxed text-foreground-secondary">
-            ANZ&apos;s structural advantage in vertical AI is counter-intuitive:
-            it&apos;s the <em>regulation</em>. In healthcare (TGA, ACHS, AHPRA),
-            financial services (APRA, ASIC), mining safety, and defence (sovereign
-            capability requirements), regulatory complexity creates two moats
-            simultaneously: an entry barrier for competitors and switching costs
-            for customers.
+            This showed up repeatedly in the State of Funding report. As one
+            investor put it: &ldquo;Australia has a small population, a vast
+            landmass, and abundant minerals and critical resources, making it a
+            useful microcosm for the Western world and a natural testbed for
+            robotics, computer vision, and autonomous systems.&rdquo; Halter
+            proved this works at unicorn scale.
           </p>
-          <p className="font-sans text-sm font-medium text-accent">
-            The filter: Would switching this product require a compliance review?
-          </p>
-        </div>
-
-        <div className="rounded-xl border border-[#378ADD44] bg-card p-6">
-          <h3 className="mb-2 font-sans text-base font-semibold">
-            4. ANZ domain → global distribution
-          </h3>
-          <p className="mb-3 text-[0.9rem] leading-relaxed text-foreground-secondary">
-            The best ANZ vertical AI companies use local domain expertise as
-            training ground, then scale globally. Harrison.ai trained on
-            Australian clinical data, now operates in 15 countries. Heidi Health
-            built for AU GPs, now processes millions of interactions globally.
-            Neara started modelling Australian utility networks, now serves
-            utilities across three continents.
-          </p>
-          <p className="font-sans text-sm font-medium text-accent">
-            The filter: Is the domain problem ANZ-specific, or is ANZ the most
-            extreme version of a global problem?
+          <p className="text-[0.9rem] leading-relaxed text-foreground-secondary">
+            The whitespace extends to mining automation beyond monitoring,
+            post-harvest agricultural value chain (grading, logistics, market
+            pricing) — a $70B+ annual export industry with minimal
+            digitisation.
           </p>
         </div>
       </div>
-
-      {/* Whitespace */}
-      <SectionHeader>Whitespace Opportunities</SectionHeader>
-
-      <Callout>
-        <p className="mb-4">
-          <strong>AI for trades and field services:</strong> Australia has 1.1M+
-          tradespeople. Construction, plumbing, electrical — high-value,
-          low-digitisation verticals where AI can automate quoting, scheduling,
-          compliance, and safety documentation. Buildxact is early proof, but the
-          market is wide open.
-        </p>
-        <p className="mb-4">
-          <strong>Agricultural AI beyond monitoring:</strong> The post-harvest
-          value chain (grading, logistics optimisation, market pricing) is
-          largely unaddressed despite $70B+ in annual agricultural exports.
-        </p>
-        <p className="mb-4">
-          <strong>Vertical AI for financial advice:</strong> Australia&apos;s
-          $3.5T superannuation system and the growing advice gap (fewer advisers,
-          more retirees) creates a massive opportunity for AI that delivers
-          personalised guidance within ASIC&apos;s regulatory framework.
-        </p>
-        <p>
-          <strong>Sovereign defence AI:</strong> AUKUS is accelerating defence
-          tech investment and emphasis on sovereign capability. AI for defence
-          logistics, intelligence analysis, and autonomous systems is a
-          generational opportunity.
-        </p>
-      </Callout>
 
       {/* Author note */}
       <div className="mt-10 rounded-lg border border-border bg-highlight p-6">

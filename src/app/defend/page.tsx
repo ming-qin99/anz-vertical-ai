@@ -5,7 +5,7 @@ import Callout from "@/components/content/Callout";
 import PillarNav from "@/components/content/PillarNav";
 
 export const metadata: Metadata = {
-  title: "Defend — Defence, Cyber & Sovereign Tech | ANZ Vertical AI",
+  title: "Defend — Defence, Cyber & Sovereign Tech | The State of ANZ Verticalised AI",
 };
 
 export default function DefendPage() {

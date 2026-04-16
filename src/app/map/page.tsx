@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import MapClient from "@/components/interactive/MapClient";
 
 export const metadata: Metadata = {
-  title: "Interactive Company Map | ANZ Vertical AI",
+  title: "Interactive Company Map | The State of ANZ Verticalised AI",
 };
 
 export default function MapPage() {

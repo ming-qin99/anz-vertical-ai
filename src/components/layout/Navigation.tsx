@@ -6,10 +6,10 @@ import { pillars } from "@/data/sectors";
 
 const topLinks = [
   { href: "/landscape", label: "Landscape" },
-  { href: "/defensibility", label: "Defensibility" },
 ];
 
 const bottomLinks = [
+  { href: "/defensibility", label: "Defensibility" },
   { href: "/thesis", label: "Thesis" },
   { href: "/map", label: "Map" },
 ];
@@ -36,7 +36,7 @@ export default function Navigation() {
           href="/"
           className="font-sans text-sm font-semibold tracking-tight text-foreground hover:text-accent transition-colors"
         >
-          ANZ Vertical AI
+          The State of ANZ Verticalised AI
         </Link>
 
         {/* Desktop */}

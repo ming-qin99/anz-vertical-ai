@@ -6,7 +6,7 @@ import MoatTag from "@/components/content/MoatTag";
 import PillarNav from "@/components/content/PillarNav";
 
 export const metadata: Metadata = {
-  title: "Diagnose — Healthcare AI | ANZ Vertical AI",
+  title: "Diagnose — Healthcare AI | The State of ANZ Verticalised AI",
 };
 
 export default function DiagnosePage() {

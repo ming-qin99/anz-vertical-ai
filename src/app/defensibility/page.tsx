@@ -6,7 +6,7 @@ import MoatTag from "@/components/content/MoatTag";
 import { defensibilityScores, moatArchetypes } from "@/data/defensibility";
 
 export const metadata: Metadata = {
-  title: "The Defensibility Framework | ANZ Vertical AI",
+  title: "The Defensibility Framework | The State of ANZ Verticalised AI",
 };
 
 const dimLabels: Record<string, string> = {

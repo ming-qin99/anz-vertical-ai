@@ -6,7 +6,7 @@ import QuoteBlock from "@/components/content/QuoteBlock";
 import SectionHeader from "@/components/content/SectionHeader";
 
 export const metadata: Metadata = {
-  title: "The ANZ Vertical AI Landscape | ANZ Vertical AI",
+  title: "The ANZ Verticalised AI Landscape | The State of ANZ Verticalised AI",
 };
 
 const stats = [
@@ -21,7 +21,7 @@ export default function LandscapePage() {
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
       <header className="mb-10">
         <h1 className="font-sans text-3xl font-semibold tracking-tight">
-          The ANZ Vertical AI Landscape
+          The ANZ Verticalised AI Landscape
         </h1>
         <p className="mt-3 text-lg leading-relaxed text-foreground-secondary">
           The state of the market: how capital is flowing, where investors are

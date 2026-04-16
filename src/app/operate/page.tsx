@@ -6,7 +6,7 @@ import MoatTag from "@/components/content/MoatTag";
 import PillarNav from "@/components/content/PillarNav";
 
 export const metadata: Metadata = {
-  title: "Operate — Workforce, CX & Operations | ANZ Vertical AI",
+  title: "Operate — Workforce, CX & Operations | The State of ANZ Verticalised AI",
 };
 
 export default function OperatePage() {

@@ -5,7 +5,7 @@ import Callout from "@/components/content/Callout";
 import PillarNav from "@/components/content/PillarNav";
 
 export const metadata: Metadata = {
-  title: "Create — Creative Tools & Brand Infrastructure | ANZ Vertical AI",
+  title: "Create — Creative Tools & Brand Infrastructure | The State of ANZ Verticalised AI",
 };
 
 export default function CreatePage() {

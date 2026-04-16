@@ -4,7 +4,7 @@ import SectionHeader from "@/components/content/SectionHeader";
 import Callout from "@/components/content/Callout";
 
 export const metadata: Metadata = {
-  title: "Investment Thesis & Whitespace | ANZ Vertical AI",
+  title: "Investment Thesis & Whitespace | The State of ANZ Verticalised AI",
 };
 
 export default function ThesisPage() {

@@ -6,7 +6,7 @@ import MoatTag from "@/components/content/MoatTag";
 import PillarNav from "@/components/content/PillarNav";
 
 export const metadata: Metadata = {
-  title: "Extract — Resources, Energy & AgTech | ANZ Vertical AI",
+  title: "Extract — Resources, Energy & AgTech | The State of ANZ Verticalised AI",
 };
 
 export default function ExtractPage() {

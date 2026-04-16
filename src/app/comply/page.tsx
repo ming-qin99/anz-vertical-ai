@@ -6,7 +6,7 @@ import MoatTag from "@/components/content/MoatTag";
 import PillarNav from "@/components/content/PillarNav";
 
 export const metadata: Metadata = {
-  title: "Comply — Legal, Compliance & Financial Services | ANZ Vertical AI",
+  title: "Comply — Legal, Compliance & Financial Services | The State of ANZ Verticalised AI",
 };
 
 export default function ComplyPage() {
